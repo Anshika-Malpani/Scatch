@@ -51,7 +51,7 @@ const Navbar = () => {
                         <FaBars className='text-[7vw]' />
                     </button>
                 </div>
-                <div className={`sidebar  absolute w-[85%] h-screen  bg-black top-0 right-0 z-20 p-[7vw] ${isOpen ? 'flex flex-col gap-5' : 'hidden'} `}>
+                <div className={`sidebar  absolute w-[85%] h-screen  bg-black top-0 right-0 z-40 p-[7vw] ${isOpen ? 'flex flex-col gap-5' : 'hidden'} `}>
                     <div className='flex justify-end w-full'>
                         <button onClick={closeMenu} >
                             <FaTimes className='text-[7vw] text-white' />
