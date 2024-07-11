@@ -41,7 +41,7 @@ const PageOne = () => {
               </h1>
             </div>
             <div className='overflow-hidden'>
-              <h1 className='Consolas heading text-[20vw] md:text-[30vw] lg:text-[20vw] font-bold text-[#385154] leading-none tracking-tight' style={{ WebkitFontSmoothing: 'antialiased', MozOsxFontSmoothing: 'grayscale' }}>
+              <h1 className='Consolas heading text-[22vw] md:text-[30vw] lg:text-[20vw] font-bold text-[#385154] leading-none tracking-tight' style={{ WebkitFontSmoothing: 'antialiased', MozOsxFontSmoothing: 'grayscale' }}>
                 BACKPACK
               </h1>
             </div>
