@@ -13,20 +13,21 @@ const TopFeatures = () => {
 
     useEffect(() => {
         const marqueeElements = marqueeRef.current.children;
-
+    
         const animateMarquee = () => {
             const isMobile = window.innerWidth <= 768;
             gsap.to(marqueeElements, {
                 xPercent: -100,
-                repeat: Infinity,
-                duration: isMobile ? 7 : 7,
-                ease: "linear",
+                repeat: -1,
+                duration: isMobile ? 10 : 10,
+                ease: "power1.inOut",
+                overwrite: true,
             });
         };
-
-        animateMarquee();
     
+        animateMarquee();
     }, []);
+    
 
     useGSAP(()=>{
         gsap.from(headingRef.current, {
