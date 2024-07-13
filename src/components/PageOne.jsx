@@ -46,7 +46,7 @@ const PageOne = () => {
               </h1>
             </div>
           </div>
-          <div className='absolute left-[3%] md:left-[8.4%] bottom-[4%] md:bottom-[6%] z-20 '>
+          <div className='absolute left-[3%] md:left-[8.4%] bottom-[14%] md:bottom-[6%] z-20 '>
             <Button name="Shop Now" icon={<RiArrowRightLine className='w-[70%] h-[70%] font-bold' />} link="/product" />
           </div>
           <div className='absolute left-[60%] md:left-[70%] bottom-[8%] md:bottom-[4%] z-20'>
