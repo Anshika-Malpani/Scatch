@@ -36,17 +36,17 @@ const PageOne = () => {
           </div>
           <div className='absolute top-[1%] md:top-[15%] overflow-hidden z-20 md:z-0'>
           <div className='overflow-hidden'>
-              <h1 className='Consolas heading text-[15vw] md:text-[15vw] lg:text-[10vw]  text-[#385154] tracking-tight leading-none md:ml-2' style={{ WebkitFontSmoothing: 'antialiased', MozOsxFontSmoothing: 'grayscale' }}>
+              <h1 className='Consolas heading text-[15vw] md:text-[15vw] lg:text-[10vw]  text-[#385154] tracking-tight leading-none md:ml-2' >
                 SCATCH
               </h1>
             </div>
             <div className='overflow-hidden'>
-              <h1 className='Consolas heading text-[19.5vw] md:text-[30vw] lg:text-[20vw]  text-[#385154] leading-none tracking-tight' style={{ WebkitFontSmoothing: 'antialiased', MozOsxFontSmoothing: 'grayscale' }}>
+              <h1 className='Consolas heading text-[19.5vw] md:text-[30vw] lg:text-[20vw]  text-[#385154] leading-none tracking-tight' >
                 BACKPACK
               </h1>
             </div>
           </div>
-          <div className='absolute left-[10%] md:left-[8.4%] bottom-[10%] md:bottom-[6%] z-20 '>
+          <div className='absolute left-[3%] md:left-[8.4%] bottom-[4%] md:bottom-[6%] z-20 '>
             <Button name="Shop Now" icon={<RiArrowRightLine className='w-[70%] h-[70%] font-bold' />} link="/product" />
           </div>
           <div className='absolute left-[60%] md:left-[70%] bottom-[8%] md:bottom-[4%] z-20'>
