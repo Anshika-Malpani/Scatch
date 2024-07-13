@@ -1,15 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Consolas:wght@900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Gellix';
+    src: url('./src/fonts/Gellix-Regular.woff2') format('woff2'),
+         url('./src/fonts/Gellix-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Gellix;
+    font-family: 'Gellix', sans-serif;
 }
+
 .Consolas{
-    font-family: Consolas;
+    font-family: 'Consolas', monospace;
+    
 }
 
 .card:hover .orderBtn{

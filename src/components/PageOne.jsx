@@ -36,12 +36,12 @@ const PageOne = () => {
           </div>
           <div className='absolute top-[1%] md:top-[15%] overflow-hidden z-20 md:z-0'>
           <div className='overflow-hidden'>
-              <h1 className='Consolas heading text-[15vw] md:text-[15vw] lg:text-[10vw] font-bold text-[#385154] tracking-tight leading-none md:ml-2' style={{ WebkitFontSmoothing: 'antialiased', MozOsxFontSmoothing: 'grayscale' }}>
+              <h1 className='Consolas heading text-[15vw] md:text-[15vw] lg:text-[10vw]  text-[#385154] tracking-tight leading-none md:ml-2' style={{ WebkitFontSmoothing: 'antialiased', MozOsxFontSmoothing: 'grayscale' }}>
                 SCATCH
               </h1>
             </div>
             <div className='overflow-hidden'>
-              <h1 className='Consolas heading text-[22vw] md:text-[30vw] lg:text-[20vw] font-bold text-[#385154] leading-none tracking-tight' style={{ WebkitFontSmoothing: 'antialiased', MozOsxFontSmoothing: 'grayscale' }}>
+              <h1 className='Consolas heading text-[22vw] md:text-[30vw] lg:text-[20vw]  text-[#385154] leading-none tracking-tight' style={{ WebkitFontSmoothing: 'antialiased', MozOsxFontSmoothing: 'grayscale' }}>
                 BACKPACK
               </h1>
             </div>
