@@ -3,7 +3,7 @@ import React from 'react'
 const Discount = () => {
   return (
     <>
-    <div className='h-[10vw] md:h-[5vw] rounded-full bg-white flex items-center py-5 pl-3  gap-2'>
+    <div className='h-[10vw] md:h-[5vw] rounded-full bg-white flex items-center py-5 pl-3 pr-5 gap-2'>
         <div className='w-[7.6vw] md:w-[3.8vw] h-[7.6vw] md:h-[3.8vw] bg-[#F57F50] rounded-full flex items-center justify-center p-1'>
             <img className='w-[80%] h-[80%] object-contain' src="backpack.png" alt="" />
         </div>
