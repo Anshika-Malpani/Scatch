@@ -51,6 +51,7 @@ const TopFeatures = () => {
                 trigger: ".scroller",
                 start: "top center",
                 end: "bottom center",
+                
             }
         });
     })

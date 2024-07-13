@@ -18,7 +18,7 @@ const Cards = ({ feature, theme, icon }) => {
         gsap.fromTo(card,
             { opacity: 0, y: 50 },
             {
-                opacity: 1, y: 0, duration: 1, scrollTrigger: {
+                opacity: 1, y: 0, duration: 2, scrollTrigger: {
                     trigger: card,
                     start: 'top 80%',
                     end: 'bottom 60%',
