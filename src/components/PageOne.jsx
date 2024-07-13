@@ -21,9 +21,6 @@ const PageOne = () => {
     });
   });
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
     <div className='w-full h-screen bg-[#D3DEDC]'>
