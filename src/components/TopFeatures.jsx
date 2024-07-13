@@ -25,14 +25,7 @@ const TopFeatures = () => {
         };
 
         animateMarquee();
-        window.addEventListener('resize', animateMarquee);
-
-      
-
-        return () => {
-            window.removeEventListener('resize', animateMarquee);
-        };
-
+    
     }, []);
 
     useGSAP(()=>{
