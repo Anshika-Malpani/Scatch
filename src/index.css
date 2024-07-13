@@ -4,13 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'Gellix';
-    src: url('./src/fonts/Gellix-Regular.woff2') format('woff2'),
-         url('./src/fonts/Gellix-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 *{
     margin: 0;
