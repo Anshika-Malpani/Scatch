@@ -11,22 +11,22 @@ const TopFeatures = () => {
     const headingRef = useRef(null);
     const subHeadingRef = useRef(null);
 
-    useEffect(() => {
-        const marqueeElements = marqueeRef.current.children;
+    // useEffect(() => {
+    //     const marqueeElements = marqueeRef.current.children;
     
-        const animateMarquee = () => {
-            const isMobile = window.innerWidth <= 768;
-            gsap.to(marqueeElements, {
-                xPercent: -100,
-                repeat: -1,
-                duration: isMobile ? 10 : 10,
-                ease: "power1.inOut",
-                overwrite: true,
-            });
-        };
+    //     const animateMarquee = () => {
+    //         const isMobile = window.innerWidth <= 768;
+    //         gsap.to(marqueeElements, {
+    //             xPercent: -100,
+    //             repeat: -1,
+    //             duration: isMobile ? 10 : 10,
+    //             ease: "power1.inOut",
+    //             overwrite: true,
+    //         });
+    //     };
     
-        animateMarquee();
-    }, []);
+    //     animateMarquee();
+    // }, []);
     
 
     useGSAP(()=>{
@@ -60,10 +60,12 @@ const TopFeatures = () => {
     
     return (
         <div className='w-full min-h-full bg-[#D3DEDC] '>
+            <div className='marquee-container'>
             <div ref={marqueeRef} className='marquee w-full h-[15vh] md:h-[20vh] flex overflow-x-auto'>
                 <Marquee />
                 <Marquee />
                 <Marquee />
+            </div>
             </div>
             <div className='w-full px-[4vw] flex flex-col gap-4 lg:h-[80vh] lg:gap-0 scroller'>
                 <div className='w-full h-[30%] pt-10 md:pt-16 flex flex-col items-center justify-center gap-2'>

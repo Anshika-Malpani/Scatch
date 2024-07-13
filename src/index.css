@@ -38,3 +38,22 @@
 .marquee::-webkit-scrollbar{
     display: none;
 }
+
+.marquee-container{
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.marquee >div{
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
