@@ -30,10 +30,10 @@ const Contact = ({ loggedIn }) => {
         </div>
         <div className="w-full md:w-[50%] h-full flex items-center justify-center ">
           {!query ? (
-            <div className="w-[90%] md:w-[70%] h-[82%] bg-[#385154] text-white rounded-[5vw] md:rounded-[2vw] overflow-hidden contactFormDiv">
+            <div style={{ boxShadow: "0 5px 15px rgba(0, 0, 0, 0.35)" }} className="w-[88%] md:w-[65%] h-[82%] bg-[#385154]  rounded-[3vw] md:rounded-[1vw] overflow-hidden contactFormDiv">
               <div className='px-5 md:px-6 pt-4 flex flex-col gap-2'>
-                <h1 className='text-[7vw] font-semibold md:text-[2vw]'>Get in Touch</h1>
-                <h6>You can reach us anytime </h6>
+                <h1 className='text-[7vw] font-semibold md:text-[2vw] text-white'>Get in Touch</h1>
+                <h6 className='text-white'>You can reach us anytime </h6>
                 </div>
               <form onSubmit={handleSubmit} className="contactForm">
                 <div className="w-full md:h-[11vh] px-5 md:px-6 pt-4 flex flex-col md:flex-row gap-2 md:gap-5">

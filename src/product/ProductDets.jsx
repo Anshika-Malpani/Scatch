@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import { RiAddFill } from "@remixicon/react";
 import { RiSubtractFill } from "@remixicon/react";
@@ -7,6 +7,7 @@ import { RiShoppingBagLine } from "@remixicon/react";
 import BuyButton from '../components/BuyButton';
 import productData from "../assets/productData.json"
 import { useParams } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 const ProductDets = () => {
     const params = useParams()
@@ -20,6 +21,10 @@ const ProductDets = () => {
             setQuantity(quantity - 1)
         }
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     return (
         <>
@@ -85,6 +90,7 @@ const ProductDets = () => {
                     }
                 })
             }
+
         </>
     )
 }
