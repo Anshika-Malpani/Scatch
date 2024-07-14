@@ -14,8 +14,8 @@ const Login = () => {
     const handleSignUpPage = () => {
         gsap.to(".login", { display: "none", duration: 0 });
         if (isMobile) {
-            gsap.to(".left", { y: "133%", duration: 0.2 });
-            gsap.to(".right", { y: "-75%", duration: 0.2 });
+            gsap.to(".left", { y: "140%", duration: 0.2 });
+            gsap.to(".right", { y: "-80%", duration: 0.2 });
             gsap.to(".loginLeft", { y: "122%", duration: 0.2 });
             gsap.to(".loginRight", { y: "-82%", duration: 0.2 });
         } else {
