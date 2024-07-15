@@ -20,7 +20,7 @@ const LatestProduct = () => {
           trigger: headingRef.current,
           start: 'top 80%', 
           end: 'bottom 10%', 
-          markers:true
+         
         }
       }
     );
