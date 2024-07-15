@@ -1,12 +1,35 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import ProductCard from './ProductCard'
 import { NavLink } from 'react-router-dom';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { gsap } from 'gsap';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const LatestProduct = () => {
+  const headingRef = useRef(null);
+
+  useEffect(() => {
+    gsap.fromTo(headingRef.current, 
+      { opacity: 0, x: -80 },
+      { 
+        opacity: 1, 
+        x: 0, 
+        duration: 2, 
+        scrollTrigger: {
+          trigger: headingRef.current,
+          start: 'top 80%', 
+          end: 'bottom 10%', 
+          markers:true
+        }
+      }
+    );
+  }, []);
+
   return (
     <div className='w-full min-h-full bg-[#D3DEDC] flex flex-col pb-[25vw] md:pb-5'>
-      <div className='w-full h-[18vh] md:h-[20vh] flex items-center px-[7vw] md:px-[11.8vw]'>
-        <h1 className='text-[9vw]  md:text-5xl font-[1000]'>Discover Our Latest Products</h1>
+      <div  className='w-full h-[20vh] md:h-[20vh] flex items-center px-[7vw]  md:px-[11.8vw]'>
+        <h1 ref={headingRef} className='text-[9vw]  md:text-5xl font-[1000]'>Discover Our Latest Products</h1>
       </div>
       <div className='w-full md:h-[80vh] flex flex-col gap-10 justify-center items-center relative flex-shrink-0 md:flex-row md:items-baseline '>
         <ProductCard bagImage="bag11.png" title="Travelling Bagpack" amount="4999" />

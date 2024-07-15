@@ -9,10 +9,15 @@ const ProductPageCards = ({ filterData }) => {
     const [allProduct, setAllProduct] = useState(filterData.allProduct);
     const [discount, setDiscount] = useState(filterData.discount);
     const [popular, setPopular] = useState(filterData.popular);
+    const [priceRange, setPriceRange] = useState('');
 
     useEffect(() => {
         setNewCollection(filterData.newCollection);
     }, [filterData.newCollection]);
+
+    useEffect(() => {
+        setPriceRange(filterData.priceRange);
+    }, [filterData.priceRange]);
 
     useEffect(() => {
         setAllProduct(filterData.allProduct);
@@ -28,10 +33,10 @@ const ProductPageCards = ({ filterData }) => {
 
     useEffect(() => {
         fetchProduct();
-    }, [newCollection, discount, popular, allProduct]);
+    }, [newCollection, discount, popular, allProduct,priceRange]);
 
     const fetchProduct = () => {
-        const data = filterProducts({ newCollection, discount, popular });
+        const data = filterProducts({ newCollection, discount, popular, priceRange });
         setProduct(data);
     };
 

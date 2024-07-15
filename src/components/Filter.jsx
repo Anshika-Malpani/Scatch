@@ -47,53 +47,53 @@ const Filter = ({ onFilterChange }) => {
     return (
         <>
             <h1 className='text-lg font-bold uppercase '>Filter By</h1>
-            <div className="flex flex-col mt-4 md:mt-6 lg:mt-8">
+            <div className="flex flex-col mt-4">
                 <h1 className={newCollection ? "block w-fit mb-2 font-semibold cursor-pointer" : "block w-fit mb-2 hover:font-semibold cursor-pointer"} onClick={handleNewCollection} >New Collection</h1>
                 <h1 className={allProduct ? "block w-fit mb-2 font-semibold cursor-pointer" : "block w-fit mb-2 hover:font-semibold cursor-pointer"} onClick={handleAllProducts} >All Products</h1>
                 <h1 className={discount ? "block w-fit mb-2 font-semibold cursor-pointer" : "block w-fit mb-2 hover:font-semibold cursor-pointer"} onClick={handleDiscount}  >Discounted Products</h1>
                 <h1 className={popular ? "block w-fit mb-2 font-semibold cursor-pointer" : "block w-fit mb-2 hover:font-semibold cursor-pointer"} onClick={handlePopular} >Popular Products</h1>
             </div>
-            <div className="flex flex-col mt-4 md:mt-6 lg:mt-8">
+            <div className="flex flex-col mt-4 ">
                <h1 className='text-base md:text-lg lg:text-xl font-semibold'>Price</h1>
                <div className='flex gap-2 items-center mt-2 md:mt-3 lg:mt-4'>
                    <input 
                        type="radio"  
                        name="priceRange" 
-                       value="bellow500" 
-                       checked={priceRange === 'bellow500'} 
+                       value="bellow1500" 
+                       checked={priceRange === 'bellow1500'} 
                        onChange={handlePriceRangeChange} 
                    />
-                   <h6>Below ₹500</h6>
+                   <h6>Below ₹1500</h6>
                </div>
                <div className='flex gap-2 items-center mt-2 md:mt-3 lg:mt-4'>
                    <input 
                        type="radio"  
                        name="priceRange" 
-                       value="500-1000" 
-                       checked={priceRange === '500-1000'} 
+                       value="1500-2500" 
+                       checked={priceRange === '1500-2500'} 
                        onChange={handlePriceRangeChange} 
                    />
-                   <h6>₹500-₹1000</h6>
+                   <h6>₹1500-₹2500</h6>
                </div>
                <div className='flex gap-2 items-center mt-2 md:mt-3 lg:mt-4'>
                    <input 
                        type="radio"  
                        name="priceRange" 
-                       value="1000-2000" 
-                       checked={priceRange === '1000-2000'} 
+                       value="2000-3000" 
+                       checked={priceRange === '2000-3000'} 
                        onChange={handlePriceRangeChange} 
                    />
-                   <h6>₹1000-₹2000</h6>
+                   <h6>₹2000-₹3000</h6>
                </div>
                <div className='flex gap-2 items-center mt-2 md:mt-3 lg:mt-4'>
                    <input 
                        type="radio"  
                        name="priceRange" 
-                       value="2000-4000" 
-                       checked={priceRange === '2000-4000'} 
+                       value="3000-4000" 
+                       checked={priceRange === '3000-4000'} 
                        onChange={handlePriceRangeChange} 
                    />
-                   <h6>₹2000-₹4000</h6>
+                   <h6>₹3000-₹4000</h6>
                </div>
             </div>
         </>

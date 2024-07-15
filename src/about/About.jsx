@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const About = () => {
   return (
@@ -16,6 +17,7 @@ const About = () => {
           <p className='text-[4.2vw] md:text-[1.4vw] text-justify tracking-tight'>Wait! Before you crumple and throw away this paper and start using our bags, please take a minute and read the next few steps. </p>
         </div>
       </div>
+      <Footer />
     </>
   )
 }

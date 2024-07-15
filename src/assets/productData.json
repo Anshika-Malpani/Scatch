@@ -11,7 +11,7 @@
     "image": "bag1.png",
     "discount":"10%",
     "newCollection":false,
-    "popular":true
+    "popular":false
   },
   {
     "id":2,
@@ -24,7 +24,7 @@
     "image": "bag9.png",
     "discount":"",
     "newCollection":true,
-    "popular":true
+    "popular":false
   },
   {
     "id":3,
