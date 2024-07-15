@@ -18,7 +18,7 @@ const ProductCard = ({ bagImage, title, amount }) => {
           trigger: cardRef.current,
           start: 'top 80%', 
           end: 'bottom 10%', 
-          markers:true
+         
         }
       }
     );
