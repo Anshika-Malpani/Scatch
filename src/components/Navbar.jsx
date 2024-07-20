@@ -102,7 +102,7 @@ const Navbar = ({addToCartId}) => {
                 <Sidebar isOpen={isOpen} closeMenu={closeMenu} />
             </div>
 
-            <div style={{ boxShadow: "0 5px 15px rgba(0, 0, 0, 0.35)" }} className={`overflow-hidden cart select-none absolute w-[80%] max-h-[85vh] md:w-[22%]  bg-white z-40 right-[7%] top-[10%] rounded-xl overflow-y-auto flex flex-col  gap-2 opacity-0`}>
+            <div style={{ boxShadow: "0 5px 15px rgba(0, 0, 0, 0.35)" }} className={`overflow-hidden cart select-none absolute w-[80%] max-h-[85vh] md:w-[22%]  bg-white z-30 right-[2%] top-[8%] md:right-[7%] md:top-[10%] rounded-xl overflow-y-auto flex flex-col  gap-2 opacity-0`}>
                 {cartItems.length > 0 && <div className='px-6 pt-3 flex justify-between items-center' >
                     <h1 className='text-xl font-bold '>My Cart <span className='text-lg font-normal'>({cartItems.length})</span></h1>
                 </div>}
