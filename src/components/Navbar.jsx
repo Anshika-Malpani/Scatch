@@ -104,7 +104,7 @@ const Navbar = ({addToCartId}) => {
 
             <div style={{ boxShadow: "0 5px 15px rgba(0, 0, 0, 0.35)" }} className={`overflow-hidden cart select-none absolute w-[80%] max-h-[85vh] md:w-[22%]  bg-white z-40 right-[7%] top-[10%] rounded-xl overflow-y-auto flex flex-col  gap-2 opacity-0`}>
                 {cartItems.length > 0 && <div className='px-6 pt-3 flex justify-between items-center' >
-                    <h1 className='text-2xl md:text-xl font-bold '>My Cart <span className='text-xl md:text-lg font-normal'>({cartItems.length})</span></h1>
+                    <h1 className='text-xl font-bold '>My Cart <span className='text-lg font-normal'>({cartItems.length})</span></h1>
                 </div>}
                 <div className='w-full flex flex-col gap-4 items-center '>
                 {cartItems.length > 0 ? (
@@ -116,12 +116,12 @@ const Navbar = ({addToCartId}) => {
                                 <div className='w-full h-full '><img className='w-full h-full object-contain aspect-[2/2]' src={`/${currentElem.image}`} alt="" /></div>
                             </div>
                             <div className='w-[70%] flex flex-col gap-1 '>
-                                <h1 className='uppercase text-xl font-bold md:text-base'>{currentElem.title}</h1>
-                                <div><span className='text-lg text-gray-500 md:text-sm'>Size:</span><span className='text-lg font-semibold md:text-sm'> Large</span></div>
+                                <h1 className='uppercase text-lg font-bold md:text-base'>{currentElem.title}</h1>
+                                <div><span className='text-base text-gray-500 md:text-sm'>Size:</span><span className='text-base font-semibold md:text-sm'> Large</span></div>
                                 <div className='flex items-center gap-2'>
                                     <div className='bg-[#F2F8F7] py-1 px-2 rounded-lg flex gap-2 items-center'>
                                         <MdLocalShipping className='text-[#56a8a7] font-bold' />
-                                        <h1 className='text-[#84c4c3] font-bold md:text-xs tracking-tight'>Free Shipping</h1></div>
+                                        <h1 className='text-[#84c4c3] font-bold text-sm md:text-xs tracking-tight'>Free Shipping</h1></div>
                                 </div>
                                 <div className='flex flex-col md:items-center md:flex-row justify-between  w-full gap-2'>
                                     <div className='flex rounded-md border-[1px] border-[#9694949d] w-[20vw] lg:w-[5vw] h-[4vh] items-center mt-1 no-select'>
@@ -129,7 +129,7 @@ const Navbar = ({addToCartId}) => {
                                         <h1 className='font-semibold'>{quantity}</h1>
                                         <RiAddFill onClick={handleQuantityAdd} className='w-[50%] h-[50%] font-bold cursor-pointer hover:scale-110' />
                                     </div>
-                                    <div className='flex '><h1 className='text-2xl font-semibold ml-1 md:text-base select-none'>₹ {currentElem.price}</h1></div>
+                                    <div className='flex '><h1 className='text-xl font-semibold ml-1 md:text-base select-none'>₹ {currentElem.price}</h1></div>
                                 </div>
                                 <div className='flex justify-end'><RiDeleteBinLine className=' text-gray-400' /></div>
                             </div>
