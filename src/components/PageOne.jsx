@@ -23,7 +23,7 @@ const PageOne = () => {
 
 
   return (
-    <div className='w-full h-screen bg-[#D3DEDC]'>
+    <div className='w-full h-screen bg-[#D3DEDC] select-none'>
       <Navbar />
       <div className='w-full h-[88vh]'>
         <div className='w-full h-full flex justify-center relative'>

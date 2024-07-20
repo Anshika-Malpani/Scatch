@@ -11,24 +11,7 @@ const TopFeatures = () => {
     const headingRef = useRef(null);
     const subHeadingRef = useRef(null);
 
-    // useEffect(() => {
-    //     const marqueeElements = marqueeRef.current.children;
     
-    //     const animateMarquee = () => {
-    //         const isMobile = window.innerWidth <= 768;
-    //         gsap.to(marqueeElements, {
-    //             xPercent: -100,
-    //             repeat: -1,
-    //             duration: isMobile ? 10 : 10,
-    //             ease: "power1.inOut",
-    //             overwrite: true,
-    //         });
-    //     };
-    
-    //     animateMarquee();
-    // }, []);
-    
-
     useGSAP(()=>{
         gsap.from(headingRef.current, {
             opacity: 0,

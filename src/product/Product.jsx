@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import Navbar from '../components/Navbar'
 import ProductPage from '../components/ProductPage'
 
 const Product = () => {
@@ -8,7 +7,6 @@ const Product = () => {
   }, []);
   return (
    <>
-   <Navbar />
    <ProductPage />
    </>
   )

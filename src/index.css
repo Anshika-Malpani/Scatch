@@ -57,3 +57,7 @@
         transform: translateX(-100%);
     }
 }
+
+.cart::-webkit-scrollbar{
+    display: none;
+}

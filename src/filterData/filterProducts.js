@@ -1,4 +1,3 @@
-// filterProducts.js
 import productData from '../assets/productData';
 
 const filterProducts = (filters) => {
