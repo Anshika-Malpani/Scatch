@@ -16,7 +16,8 @@ const Navbar = ({addToCartId}) => {
     const [isOpen, setIsOpen] = useState(false);
     const [isCartOpen, setIsCartOpen] = useState(false);
     const [quantity, setQuantity] = useState(1)
-    const [cartItems,setCartItems]= useState([])
+    const [cartItems, setCartItems] = useState([]);
+
 
     const handleQuantityAdd = (event) => {
         event.preventDefault();
@@ -67,7 +68,7 @@ const Navbar = ({addToCartId}) => {
    useEffect(()=>{
     productData.map((currentElem)=>{
         if(currentElem.id === addToCartId){
-            setCartItems([...cartItems,currentElem])
+            setCartItems([...cartItems, currentElem]); 
         }
     })
     },[addToCartId])

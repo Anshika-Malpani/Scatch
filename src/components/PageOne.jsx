@@ -28,7 +28,7 @@ const PageOne = () => {
       <div className='w-full h-[88vh]'>
         <div className='w-full h-full flex justify-center relative'>
           <div className='w-[96vw] md:w-[40vw] lg:w-[20vw] h-[73vh] md:h-[70vh] lg:h-[88vh] rounded-lg overflow-hidden absolute z-10 -bottom-[19px] md:bottom-0'>
-            <img className='w-full h-full object-cover' src="hero.png" alt="Backpack" />
+            <img className='w-full h-full object-cover' src="hero.webp" alt="Backpack" />
           </div>
           <div className='absolute w-[90vw] md:w-[50vw] lg:w-[30vw] left-[5%] md:left-[40%] lg:left-[63%] top-[25%] md:top-[20%] border-l-[2px] border-[#385154] px-3 overflow-hidden'>
             <h1 ref={taglineRef} className='hidden md:block text-[6vw] md:text-[3vw] lg:text-[1.3vw] text-[#385154] font-semibold opacity-65 tracking-tight -translate-x-[102%]'>

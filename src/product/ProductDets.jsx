@@ -7,9 +7,8 @@ import { RiShoppingBagLine } from "@remixicon/react";
 import BuyButton from '../components/BuyButton';
 import productData from "../assets/productData.json"
 import { useParams } from 'react-router-dom';
-import Footer from '../components/Footer';
 
-const ProductDets = () => {
+const ProductDets = ({cartItems}) => {
     const params = useParams()
     const [quantity, setQuantity] = useState(1)
 
@@ -24,11 +23,12 @@ const ProductDets = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
+        
       }, []);
 
     return (
         <>
-            <Navbar />
+        <Navbar />
             {
                 productData.map((currentElem) => {
                     if (currentElem.id == params.id) {

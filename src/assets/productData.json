@@ -8,7 +8,7 @@
     "bgColor": "#b4c5dc",
     "textColor": "#262b45",
     "panelColor": "#86a4d4",
-    "image": "bag1.png",
+    "image": "bag1.webp",
     "discount":"10%",
     "newCollection":false,
     "popular":false
@@ -21,7 +21,7 @@
     "bgColor": "#e1c7c0",
     "textColor": "#643737",
     "panelColor": "#ba8779",
-    "image": "bag9.png",
+    "image": "bag9.webp",
     "discount":"",
     "newCollection":true,
     "popular":false
@@ -34,7 +34,7 @@
     "bgColor": "#bfd0c7",
     "textColor": "#2c3531",
     "panelColor": "#719082",
-    "image": "bag5.png",
+    "image": "bag5.webp",
     "discount":"",
     "newCollection":true,
     "popular":true
@@ -48,7 +48,7 @@
     "bgColor": "#d1d0d1",
     "textColor": "#29282a",
     "panelColor": "#aaa8ac",
-    "image": "bag3.png",
+    "image": "bag3.webp",
     "discount":"15%",
     "newCollection":true,
     "popular":false
@@ -61,7 +61,7 @@
     "bgColor": "#d1d0d1",
     "textColor": "#282829",
     "panelColor": "#aaa8ac",
-    "image": "bag4.png",
+    "image": "bag4.webp",
     "discount":"",
     "newCollection":false,
     "popular":true
@@ -74,7 +74,7 @@
     "bgColor": "#cdaa7c",
     "textColor": "#371911",
     "panelColor": "#bc8a53",
-    "image": "bag6.png",
+    "image": "bag6.webp",
     "discount":"",
     "newCollection":false,
     "popular":true
@@ -87,7 +87,7 @@
     "bgColor": "#b4c5dc",
     "textColor": "#262b45",
     "panelColor": "#86a4d4",
-    "image": "bag7.png",
+    "image": "bag7.webp",
     "discount":"",
     "newCollection":false,
     "popular":true
@@ -100,7 +100,7 @@
     "bgColor": "#d1d0d1",
     "textColor": "#3d3c3e",
     "panelColor": "#aaa8ac",
-    "image": "bag2.png",
+    "image": "bag2.webp",
     "discount":"",
     "newCollection":true,
     "popular":false
@@ -114,7 +114,7 @@
     "bgColor": "#d1d0d1",
     "textColor": "#29282a",
     "panelColor": "#aaa8ac",
-    "image": "bag8.png",
+    "image": "bag8.webp",
     "discount":"20%",
     "newCollection":false,
     "popular":false
@@ -127,7 +127,7 @@
     "bgColor": "#b4c5dc",
     "textColor": "#262b45",
     "panelColor": "#86a4d4",
-    "image": "bag10.png",
+    "image": "bag10.webp",
     "discount":"",
     "newCollection":true,
     "popular":true
@@ -140,7 +140,7 @@
     "bgColor": "#b0b3ad",
     "textColor": "#252725",
     "panelColor": "#888c84",
-    "image": "bag11trans.png",
+    "image": "bag11trans.webp",
     "discount":"",
     "newCollection":true,
     "popular":true
@@ -153,7 +153,7 @@
     "bgColor": "#d7eff6",
     "textColor": "#122a3a",
     "panelColor": "#80c8e0",
-    "image": "bag12.png",
+    "image": "bag12.webp",
     "discount":"",
     "newCollection":true,
     "popular":false
@@ -167,7 +167,7 @@
     "bgColor": "#e5cfa2",
     "textColor": "#371911",
     "panelColor": "#ce9a51",
-    "image": "bag13.png",
+    "image": "bag13.webp",
     "discount":"20%",
     "newCollection":true,
     "popular":true
